@@ -1,0 +1,370 @@
+@import url(css_reset.css);
+					/*Main*/
+ @font-face {
+    font-family: MyriadProRegular; /* Имя шрифта */
+    src: url(../fonts/MyriadPro-Regular.otf); /* Путь к файлу со шрифтом */
+
+   }
+@font-face {
+    font-family: MyriadProBold; /* Имя шрифта */
+    src: url(../fonts/MyriadPro-Bold.otf); /* Путь к файлу со шрифтом */
+}
+  @font-face {  font-family: trebuc; /* Имя шрифта */
+    src: url(../trebuc.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+    background: #000000;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a82400;
+}
+p{
+  font-family: Arial, sans-serif; 
+  color: #000000; 
+}
+span{
+   font-family: Arial, sans-serif; 
+  color: #000000;  
+}
+a,ul li {
+    font:11px Arial, sans-serif; 
+    color: #006699;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+            		/*Wrapper, header, navigation*/
+#wrapper{
+    width: 800px;
+    margin: 0 auto;   
+}
+
+#header{
+    height: 172px;
+    background: url(../img/header_bg_real.jpg) no-repeat;
+    padding: 28px 0 0 50px;
+}
+    #header h1{
+      padding-top: 12px;  
+    }
+    #header .logo_inner {   
+        margin: 10px 0 0 30px;    
+    }
+    .logo_inner p{
+        font-family: MyriadProRegular, sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+   .logo_inner p.label_mark{
+       font-family: MyriadProBold, sans-serif;
+       border-bottom: 1px solid #fff;
+       width: 317px;
+   }
+
+
+#top_navigation{
+    height: 29px;
+    background: url(../img/top_nav_bg.png) no-repeat;
+    padding: 10px 0 0 20px;
+}
+#top_navigation ul{
+   float: left;
+   list-style: none;
+  
+}
+#top_navigation ul li{
+    float: left;
+    height: 100%;
+}
+#top_navigation ul li a{
+    font:bold 12px Tahoma,sans-serif;
+    color: #fff;
+    padding: 6px 20px;
+    display: block;
+    height: 19px;
+}
+#top_navigation ul li a:hover, #top_navigation ul li a.current{
+    color: #a82400;
+    text-decoration: none;
+    background: #fff;
+}
+
+#rss{
+    width: 114px;
+    height: 13px;
+    float: left;
+    background: url(../img/rss_icon.png) no-repeat left;
+    margin:6px 0 0 90px;
+}
+#rss a{
+    font: 12px Tahoma;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    padding: 0;
+    display: block;   
+}
+#rss a:hover{
+    text-decoration: underline;
+}
+#rss a:active{
+	color: yellow;
+}
+           			 /*Content*/
+#content{
+    background: #fff;
+	border-bottom: 6px solid #a82400;      
+}
+#content_left{
+    width: 520px;
+    margin-left: 30px;
+     float: left;
+}
+#content_right{
+    width: 210px;
+    padding-top: 18px;
+    float: right;
+    margin-right: 10px;
+}
+            		/*Blog style*/
+.blog{
+   padding-top:26px;
+   }
+.blog h2{
+	padding-bottom: 4px;
+}
+.blog h2>a {
+    font: 18px Arial,sans-serif;
+    color: #a82400;
+    text-decoration: none;
+}
+.blog h2>a:hover {
+	text-decoration: underline;
+}
+
+.blog p{
+    font-size: 12px;
+    line-height: 1.2em;
+}
+.blog .second_p{
+    margin-top: 15px;
+}
+.blog_content img{
+    float: left;
+    margin: 0 20px 19px 0;
+    display: block;
+}
+.blog_content img:hover{
+	-webkit-box-shadow: 2px -2px 2px #000, -2px -2px 2px #000 ;
+	box-shadow: 2px 2px 2px #000, -2px -2px 2px #000;
+	cursor: pointer;
+}
+			/*Post date*/
+.blog_data{
+    border-top: 3px solid #d9d9d9;
+    padding-top: 4px;
+}
+
+.blog_data ul li{
+	float: left;
+}
+.blog_data ul li a{
+	padding-left: 5px;
+}
+.blog_data ul li.post_data{
+	font-size: 11px;
+	color: #000;
+}
+.blog_data ul li.post_categ{
+	list-style: square inside;
+    color: #666666;
+    margin-left: 5px;
+    min-width: 200px;
+}
+
+			/*Posted under*/
+.blog_data span ul li{ 	
+	color: #666666;
+}
+.blog_content{
+    padding-top: 18px;
+}
+.blog_status{
+    margin-top: 19px;
+}
+.blog_status img{
+    padding-right: 8px;
+}
+.blog_gallery img{
+    margin: 10px 10px 0 0;
+}
+			/*special blog*/ 
+#blog_third{
+	min-height: 184px; 
+}			
+#blog_third h3{
+	font: bold 12px Arial,sans-serif;
+	margin: 10px 0 5px 0;
+}
+#blog_third ul.blog_3_list{
+	margin:5px 0 15px 0;
+}
+#blog_third ul.blog_3_list li{
+	font: 12px Arial,sans-serif;
+	color: #000;
+}
+#blog_third ul.blog_3_list img{
+	margin-right: 10px;
+}	
+					/*content_right*/
+.r_block_header{
+    height: 20px;
+  /*  outline: 1px solid brown;*/
+    background: url(../img/r_categore_header_bg.png);
+}
+.r_block_header h3{
+    font: bold 13px Arial, sans-serif;
+    color: #fff;
+    padding:2px 0 0 10px;
+}
+#content_right .right_consolid{
+	background: url(../img/right_panel_bg.png) repeat;
+	margin-bottom: 3px;
+}
+#content_right .lost{
+    padding-bottom: 30px
+}
+
+			/*Search*/
+#search{
+    height: 65px;
+}
+
+#search form{
+	margin: 8px 0 0 9px;
+	padding: 0;
+	
+}
+#text_search{
+	width: 160px;
+	height: 17px;
+	float: left;
+	margin-right: 6px;
+}
+#go_sub{
+	width: 21px;
+	height: 21px;
+	background: url(../img/go_sub.png) no-repeat;
+	border: none;
+	outline: none;
+}
+#go_sub:hover{
+	background: url(../img/go_sub_hover.png) no-repeat;
+}
+			/*categories*/
+#categories{
+	/*min-height: 162px;*/
+} 
+
+#content_right ul li a{
+	display: block;
+}
+li.list_main {
+	background: url(../img/category_list_pict.jpg) no-repeat left center;
+}
+li.list_main a {
+	font-weight: bold;
+	padding-left: 17px;
+}
+ul.sidebar_list{
+	margin: 9px 0 0 12px; 
+}
+ul.sidebar_list li{
+	padding: 3px 0;
+}
+ ul li.sub_menu{
+	list-style:  square inside;
+	font-weight: normal;
+	padding: 0 0 0 17px;
+}
+			/*Car Blog, Meta*/
+#car_blog{
+	/*min-height: 221px;*/
+}
+#meta{
+	/*min-height: 445px;*/
+}
+					/*Footer*/
+#footer {
+	width: 800px;
+	height: 84px;
+	margin: 0 auto;
+	font: 11px Tahoma;
+	color: #eeeeee;
+	padding-top: 12px;
+}
+#footer p{
+	font: 11px Tahoma;
+	color: #eeeeee;
+	padding: 0 0 12px 0;`
+}
+#footer p a{
+	font: 11px Tahoma;
+	text-decoration: underline;
+	color: #eeeeee;	
+}
+#footer p a:hover{
+	text-decoration: none;
+}
+.footer_logo  {
+	position: relative;
+	padding: 0;
+}
+.footer_logo p img{
+	position: absolute;
+	left: 40px;
+}
+.footer_logo p a{
+	position: absolute;
+	left: 105px;
+	text-decoration: none;	
+}
+.footer_logo .red{
+	color: red;
+}
+.footer_logo .green{
+	color: green;
+}
+.footer_top{
+	position: relative;
+}
+
+.footer_right_hyp{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*
+*/
+
+ul {
+    
+}
+
+.active {
+    
+}

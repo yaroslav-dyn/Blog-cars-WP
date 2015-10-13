@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Car blog</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1><a href = "index.html" title="Home">CAR BLOG</a></h1>
+        </div><!--End header-->
+        <div id="top_navigation">
+            <ul>
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#">Car News</a></li>
+                <li><a href="#">Car Shows</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Supercars</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <div id="rss">
+                <span><a href="#" title="Subscribe!">Subscribe to RSS</a></span>
+            </div> 
+            <div class="clear"></div> 
+        </div><!--end top_navigation -->  
+        <div id="content">
+            <div id="content_left">
+                <div class="blog"><!--Blog -->                <!--Blog 1-->
+                    <div class="blog_logo">
+                        <h2>BMW may supply engines to Fiat and GM</h2>
+                        <div class="blog_data">
+                            <span>March 15th, 2008</span>
+                                <span>
+                                    <ul>
+                                        <li>Posted under<a href="#">Cars</a></li>
+                                    </ul>
+                                </span>
+                        </div>
+                        <div class="clear"></div> 
+                    </div>
+                    <div class="blog_content">
+                        <img src="img/blog_img_1.jpg" width="300" height="150" alt="bmw engines"/>
+                        <p>BMW arguably builds some of the finest engines in the industry but the carmaker isn’t one to prevent other makes from using its powerplants. 
+                        Only last week Citroen announced plans to use BMW engines in some of its cars and soon GM and Fiat could be doing the same.</p>
+                        <p class="second_p">Both GM and Fiat are currently in negotiations with BMW over a deal to procure engines and transmissions, according to the Financial Times Deutschland, citing sources at all three carmakers.</p>
+                    </div>
+                    <div class="blog_status">
+                        <ul>
+                            <li><img src="img/img_status.png" alt="status" width="10" height="9"/><a href="#">5 comments</a></li>
+                        </ul>
+                    </div>
+                </div><!--End blog 1-->
+                <div class="blog"><!--Blog -->                <!--Blog 2 with gallery-->
+                    <div class="blog_logo">
+                        <h2>Gemballa GT380 911 aero kit</h2>
+                        <div class="blog_data">
+                            <span>March 13th, 2008</span>
+                            <span><ul>
+                                <li>Posted under<a href="#">Cars</a></li>
+                            </ul>
+                            </span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="blog_content">
+                        <img src="img/blog_img_2.jpg" width="300" height="168" alt="Gemballa GT380 911 aero kit"/>
+                        <p> For a lot of people, adding performance to a Porsche 911 is just unnecessary - it’s already blazingly quick. But to make it look unique, that’s something worth spending some time on. Cue Gemballa’s GT 380 appearance package.
+                        </p>
+                        <p class="second_p">Replacing the front skirt, the bonnet, the side and rear skirts, the rear spoiler and adding 20″ racing <br>black-on-black wheels, the
+                            Gemballa GT 380 kit makes the 997 Carrera look as fast as it is. Gemballa is known for producing some of the most mind-bendingly insane power-pumpers, but when they turn their hands to adding tasteful tweaks to an otherwise stock car, they are equally successful. For some of Gemballa’s more petrol-thirsty work, check out the 850hp 911 Turbo.
+                        </p>
+                    </div>
+                    <div class="blog_gallery">
+                        <a href="#"><img src="img/photo_1.jpg" width="100" height="100" alt = "Gemballa GT380 911 aero kit"></a>
+                        <a href="#"><img src="img/photo_2.jpg" width="100" height="100" alt = "Gemballa GT380 911 aero kit"></a>
+                    </div>
+                    <div class="blog_status">
+                        <ul>
+                            <li><img src="img/img_status.png" alt="status" width="10" height="9"/><a href="#">No comments</a></li>
+                        </ul>
+                    </div>
+                </div><!--End blog 2-->
+            </div><!--End content_left-->
+            <div id="content_right">
+                <div id ="search" class = "right_consolid">
+                    <div class="r_block_header">
+                        <h3>Search</h3>
+                    </div>
+                    <form name="form_search" method="post">                   
+                        <input type="text" name="search_area" id = "text_search"/>
+                        <input type="submit" name="GO" value = "" id = "go_sub"/>
+                    </form> 
+                </div><!--End search-->
+				<div id = "categories" class = "right_consolid">
+					<div class="r_block_header">
+                        <h3>Сategories</h3>
+                    </div>
+						<ul>
+							<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+							<li class = "sub_menu"><a href ="#">New</a></li>
+							<li class = "sub_menu"><a href ="#">Used</a></li>
+						</ul>
+						<ul>
+							<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Motos</a></li>
+							<li class = "sub_menu"><a href ="#">New</a></li>
+						</ul>
+						<ul>
+							<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Trucks</a></li>
+						</ul>
+				</div><!--End categories-->
+				<div id = "car_blog" class = "right_consolid">
+					<div class="r_block_header">
+						<h3>Car blogs</h3>
+				    </div>
+					<ul>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+						<li><img src = "img/category_list_pict.jpg"><a href ="#" class = "list_main">Cars</a></li>
+					</ul>
+				</div><!--End Car blog-->
+				
+				
+				
+				
+            </div> <!--end content right-->
+            <div class="clear"></div> 
+        </div><!--end content-->   
+    </div><!--End wrapper-->
+    <div id="footer">    
+    </div><!--end footer -->  
+</body>
+</html>
